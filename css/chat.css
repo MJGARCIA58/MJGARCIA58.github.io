@@ -6,6 +6,13 @@
      right: 0;
      height: 60%;
    }
+
+   .main-aside__mensajes {
+     height: 80%;
+     overflow-y: scroll;
+ }
+
+ 
 .main-aside__title {
      width: 100%;
      text-align: center;
