@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.login-form {
+    margin: auto;
+    width: 15em;
+  }
+  
+  .login-form label,
+  .login-form input {
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+    color: palevioletred;
+  }
+
+.main-header{
+    background-color: rgb(174, 243, 243);
+    padding: 8px 16px;
+    width: 100%;
+    position: fixed;
+}
+
+.main-header >  div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 78px);
+    text-align: right;
+    vertical-align: middle;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    margin: 0 16px;
+    color: black; 
+    font-weight: bold;
+}
+/* Para poner el raton que pase y cambie el color es asi y con la coma podemos hacer juntar dos propiedades*/
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    font-weight: bold;
+
+}
+
+/* Para poner la clase que quieres siempre hay que poner un . despues para poner un icono es con before y dandole a window . puedes elergir el que quieras*/
+
+.main-nav__item_mensajes::before {
+    content: "💬";
+  }
+
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Para poner un cuadrado redondeado y poner la letra blanco y rosa*/
+.main-nav__item_logout a {
+    color: black;
+    background: palevioletred;
+    padding: 6px 14px;
+    border-radius: 10px;
+  }
+
+/* Para cuando pases el raton para que cambie el color del cuadrado y la tipografia de otro color*/
+.main-nav__item_logout a:hover{
+    color:palevioletred;
+    background-color: white;
+    border-bottom: none;
+}
+
+.main-login__title{
+    text-align: center;
+    color: palevioletred;
+    padding-top: 70px;
+    
+}
+
+/* pARA PONER LA CAJA CON COLOR POR DENTRO Y COLOR DE LETRA*/
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    border: 2px solid black;
+    padding: 0.2rem 0.5rem;
+  }
+  
+  .login-form input[type="text"]:focus,
+  .login-form input[type="password"]:focus {
+    background: rgb(235, 190, 205) ;
+    border-color: grey;
+    color:white
+  }
+  
+  .login-form label {
+    font-weight: bold;
+  }
+
+ /* Para editar el boton del entrar*/
+  .login-form input[type="submit"] {
+    background:palevioletred ;
+    color: white;
+    border: 2px solid palevioletred;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .login-form input[type="submit"]:hover,
+  .login-form input[type="submit"]:active {
+    background: white;
+    color: palevioletred;
+  }
+
