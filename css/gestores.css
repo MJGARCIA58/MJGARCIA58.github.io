@@ -1,0 +1,98 @@
+table.comicGreen {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid palevioletred;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.comicGreen td,
+table.comicGreen th {
+    border: 1px solid rgb(241, 202, 215);
+    padding: 3px 2px;
+}
+
+table.comicGreen tbody td {
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(241, 202, 215);
+}
+
+table.comicGreen tr:nth-child(even) {
+    background: palevioletred;
+}
+
+table.comicGreen thead {
+    background: rgb(241, 202, 215);
+    background: -moz-linear-gradient(top, white 100%);
+    background: -webkit-linear-gradient(top, rgb(248, 211, 223) 100%);
+    background: linear-gradient(to bottom, rgb(250, 216, 227) 100%);
+    border-bottom: 1px solid rgb(252, 217, 229);
+}
+
+table.comicGreen thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-left: 2px solid white;
+}
+
+table.comicGreen thead th:first-child {
+    border-left: none;
+}
+
+table.comicGreen tfoot td {
+    font-size: 21px;
+}
+
+.gestores-article {
+    text-align: center;
+    display: inline-block;
+    /* height: 300px; */
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.gestores-form__campo {
+    margin-top: 25px;
+
+}
+
+.gestores-form__label {
+    text-align: left;
+    display: inline-block;
+    width: 30%;
+    
+}
+
+/*
+background-color, color padding, border-radius, 
+font-weight, box-shadow, cursor 
+*/
+
+.gestores-form__submit {
+    margin-top: 25px;
+    background-color:palevioletred;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 0;
+    padding: 10px 18px;
+    
+}
+
+.gestores-form__submit:hover {
+    color: palevioletred;
+    background-color:white ;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 50%);;
+
+}
+
+.gestores-main {
+    padding-top: 60px;
+    text-align: center;
+}
