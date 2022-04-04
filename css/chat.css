@@ -1,6 +1,6 @@
 .main-aside {
      position: fixed;
-     border :palevioletred solid 2px;
+     border :rgb(174, 243, 243) solid 2px;
      width: 15em;
      bottom: 0;
      right: 0;
@@ -9,6 +9,8 @@
 
    .main-aside__mensajes {
      height: 80%;
+     /* solo funciona en Firefox */
+    scrollbar-color: white palevioletred ;
      overflow-y: scroll;
  }
 
@@ -17,7 +19,7 @@
      width: 100%;
      text-align: center;
      padding: 10px 0;
-     background-color: palevioletred;
+     background-color: rgb(174, 243, 243);
      color: white;
      font-weight: bold;
    }
