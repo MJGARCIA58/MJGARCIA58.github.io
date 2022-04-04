@@ -13,7 +13,7 @@
   .login-form label,
   .login-form input {
     display: block;
-    margin-top: 25px;
+    margin-top: 1.56rem;
     width: 100%;
     color: palevioletred;
   }
@@ -21,7 +21,7 @@
   .main-footer {
     position:fixed;
     bottom: 0;
-    padding: 5px;
+    padding: 0.31rem;
     width: 100%;
     background-color: black;   
   }
