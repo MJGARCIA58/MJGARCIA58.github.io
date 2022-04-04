@@ -29,3 +29,7 @@
      bottom: 1%;
      right: 2%;
  }
+
+ .main-footer{
+      width: calc(100% - 16em);
+ }
